@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dental-Clinic-Bilaspur</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <!-- <style> -->
+    <!-- .animation-element { -->
+            <!-- opacity: 0; -->
+            <!-- position: relative; -->
+        <!-- } -->
+        <!-- /*animation element sliding left*/ -->
+        
+        <!-- .animation-element.slide-left { -->
+            <!-- opacity: 0; -->
+            <!-- -moz-transition: all 500ms linear; -->
+            <!-- -webkit-transition: all 500ms linear; -->
+            <!-- -o-transition: all 500ms linear; -->
+            <!-- transition: all 500ms linear; -->
+            <!-- -moz-transform: translate3d(-100px, 0px, 0px); -->
+            <!-- -webkit-transform: translate3d(-100px, 0px, 0px); -->
+            <!-- -o-transform: translate(-100px, 0px); -->
+            <!-- -ms-transform: translate(-100px, 0px); -->
+            <!-- transform: translate3d(-100px, 0px, 0px); -->
+        <!-- } -->
+        
+        <!-- .animation-element.slide-left.in-view { -->
+            <!-- opacity: 1; -->
+            <!-- -moz-transform: translate3d(0px, 0px, 0px); -->
+            <!-- -webkit-transform: translate3d(0px, 0px, 0px); -->
+            <!-- -o-transform: translate(0px, 0px); -->
+            <!-- -ms-transform: translate(0px, 0px); -->
+            <!-- transform: translate3d(0px, 0px, 0px); -->
+        <!-- } -->
+        <!-- /*animation slide left styled for testimonials*/ -->
+        
+        <!-- .animation-element.slide-left.testimonial { -->
+            <!-- float: left; -->
+            <!-- width: 47%; -->
+            <!-- margin: 0% 1.5% 3% 1.5%; -->
+            <!-- background: #F5F5F5; -->
+            <!-- padding: 15px; -->
+            <!-- box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2); -->
+            <!-- border: solid 1px #EAEAEA; -->
+        <!-- } -->
+        
+        <!-- .animation-element.slide-left.testimonial:hover, -->
+        <!-- .animation-element.slide-left.testimonial:active { -->
+            <!-- box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25); -->
+        <!-- } -->
+        
+        <!-- .animation-element.slide-left.testimonial:nth-of-type(odd) { -->
+            <!-- width: 48.5%; -->
+            <!-- margin: 0% 1.5% 3.0% 0%; -->
+        <!-- } -->
+        
+        <!-- .animation-element.slide-left.testimonial:nth-of-type(even) { -->
+            <!-- width: 48.5%; -->
+            <!-- margin: 0% 0% 3.0% 1.5%; -->
+        <!-- } -->
+        
+        <!-- .animation-element.slide-left.testimonial .header { -->
+            <!-- float: left; -->
+            <!-- width: 100%; -->
+            <!-- margin-bottom: 10px; -->
+        <!-- } -->
+        
+        <!-- .animation-element.slide-left.testimonial .left { -->
+            <!-- float: left; -->
+            <!-- margin-right: 15px; -->
+        <!-- } -->
+        
+        <!-- .animation-element.slide-left.testimonial .right { -->
+            <!-- float: left; -->
+        <!-- } -->
+        
+        <!-- .animation-element.slide-left.testimonial img { -->
+            <!-- width: 65px; -->
+            <!-- height: 65px; -->
+            <!-- border-radius: 50%; -->
+            <!-- box-shadow: 0px 1px 3px rgba(51, 51, 51, 0.5); -->
+        <!-- } -->
+        
+        <!-- .animation-element.slide-left.testimonial h3 { -->
+            <!-- margin: 0px 0px 5px 0px; -->
+        <!-- } -->
+        
+        <!-- .animation-element.slide-left.testimonial h4 { -->
+            <!-- margin: 0px 0px 5px 0px; -->
+        <!-- } -->
+        
+        <!-- .animation-element.slide-left.testimonial .content { -->
+            <!-- float: left; -->
+            <!-- width: 100%; -->
+            <!-- margin-bottom: 10px; -->
+        <!-- } -->
+        
+        <!-- .animation-element.slide-left.testimonial .rating {} -->
+        
+        <!-- .animation-element.slide-left.testimonial i { -->
+            <!-- color: #aaa; -->
+            <!-- margin-right: 5px; -->
+        <!-- } -->
+        <!-- /*media queries for small devices*/ -->
+        
+        <!-- @media screen and (max-width: 678px) { -->
+            <!-- /*testimonials*/ -->
+            <!-- .animation-element.slide-left.testimonial, -->
+            <!-- .animation-element.slide-left.testimonial:nth-of-type(odd), -->
+            <!-- .animation-element.slide-left.testimonial:nth-of-type(even) { -->
+                <!-- width: 100%; -->
+                <!-- margin: 0px 0px 20px 0px; -->
+            <!-- } -->
+            <!-- .animation-element.slide-left.testimonial .right, -->
+            <!-- .animation-element.slide-left.testimonial .left, -->
+            <!-- .animation-element.slide-left.testimonial .content, -->
+            <!-- .animation-element.slide-left.testimonial .rating { -->
+                <!-- text-align: center; -->
+                <!-- float: none; -->
+            <!-- } -->
+            <!-- .animation-element.slide-left.testimonial img { -->
+                <!-- width: 85px; -->
+                <!-- height: 85px; -->
+                <!-- margin-bottom: 5px; -->
+            <!-- } -->
+        <!-- } -->
+    <!-- } -->
+    </style>
+</head>
+
+<body id="bottom"> <input type="checkbox" id="menu" class="block-1">
+    <header> <label for="menu" class="block"><i class="fa fa-bars"></i></label>
+        <div class="">
+            <div class="col-flex">
+                <div class="text-position">
+                    <div class="dental-logo pad-20 text-center"> <img src="img/dental-logo-1.png" alt=""></div>
+                    <div class="dental-header text-center pad-10">
+                        <ul CLASS="nav navbar-nav pad-10">
+                            <li> <a href="#home">HOME</a></li>
+                            <li> <a href="#about">ABOUT</a></li>
+                            <li> <a href="#treat">TREATMENT</a></li>
+                            <li> <a href="#apoint">APPOINTMENT</a></li>
+                            <li> <a href="#gal">GALLERY</a></li>
+                            <li> <a href="#con">CONTACT</a></li>
+                        </ul>
+                    </div>
+                    <div class="dental-appointment bg-blue pad-10 bg-blue text-center">
+                        <h1><a href="#apoint" class="anchor">GET APPOINTMENT</a></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <article class="bg-1" id="home">
+        <div class="layer">
+            <div class="col-flex">
+                <div class="text-position">
+                    <div class="Dental-bg-text text-center pad-10">
+                        <p>Your Best Dental Experience Here</p>
+                        <p class="big">J.N. Dental Care</p> <button class="btn btn-custom color-white "><a href="#treat" class="anchor">Our Services</a></button></div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article>
+        <div class="col-flex">
+            <div class="text-position">
+                <div class="dental-box bg-blue pad-20 ">
+                    <h1><i class="fa fa-phone" style="font-size:36px"></i> Call +91877 086 84 84</h1>
+                    <p>Madhya Nagari Chowk, Bilaspur H O, Bilaspur-Chhattisgarh</p>
+                </div>
+            </div>
+            <div class="text-position">
+                <div class="dental-box pad-20 bg-pink">
+                    <h1><i class="fa fa-clock-o" style="font-size:36px"></i> Open Hours</h1>
+                    <p>Mon -10:00 Am - 2:00 Pm, Sunday: 10:00 Am - 2:00 Pm</p>
+                </div>
+            </div>
+            <div class="text-position">
+                <div class="dental-box bg-blue pad-20 ">
+                    <h1><i class="fa fa-calendar" style="font-size:36px"></i> Make an Appointment</h1>
+                    <p>It’s So Fast & Easy</p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <section id="about" class="animation-element slide-left">
+        <div class="container">
+            <div class="col-flex">
+                <div class="text-position ">
+                    <div class="heading text-center">
+                        <h2 class="head-font-size"><b>J.N. Dental Cure & Care - Bilaspur</b></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-flex">
+                <div class="text-position">
+                    <div class="Dental-About ">
+                        <h3 class="head-font-size">Who We Are</h3>
+                        <p class="color-pink">WELCOME TO J.N. Dental Care</p>
+                        <h4 class="head-font-size">Welcome to a Family J.N. Dental Clinic</h4>
+
+                        <p><b>Established in the year 2014, J.N. Dental Clinic & </b>Implant centre in Bilaspur H O, Bilaspur-chhattisgarh is a top player in the category Dentists in the Bilaspur-chhattisgarh. This well-known establishment acts as a one-stop
+                            destination servicing customers both local and from other parts of <b>Bilaspur-chhattisgarh. Over the course of its journey, this business has established a firm foothold in it’s industry.</b> J.N. Dental Care In <b>Bilaspur-chhattisgarh,
+                            this establishment occupies a prominent location in Bilaspur H O.</b></p>
+                    </div>
+                </div>
+                <div class="text-position">
+                    <div class="Dental-About pad-20"> <img src="img/bg-1.jpg" alt="" class="img-responsive"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container animation-element slide-left">
+            <div class="col-flex">
+                <div class="text-position">
+                    <div class="heading ">
+                        <h5 class="head-font-size">What We Do</h5>
+                        <p><b>J.N. Dental Clinic & Implant centre in Bilaspur-chhattisgarh </b>is one of the leading businesses in the Dentists. Also known for<b> Dentists, Dental Surgeons, Root Canal Doctors, Dentists For Special Needs Children, Periodontist Doctors,</b>                            Tooth Coloured Filling Services, Doctors For Dental Implantation and much more. Find Address, Contact Number, Reviews & Ratings, Photos, Maps of <b>J.N. Dental Clinic & Implant centre, Bilaspur-chhattisgarh.</b></p>
+                        <p><b>J.N. Dental Clinic ( J.N. Dental Clinic  in Bilaspur-chhattisgarh).</b></p>
+                    </div>
+                </div>
+                <div class="text-position">
+                    <div class="Dental-About pad-20"> <img src="img/holistic-hero.jpg" alt="" class="img-responsive"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="treat" class="animation-element slide-left">
+        <div class="container">
+            <div class="col-flex">
+                <div class="text-position">
+                    <div class="heading text-center">
+                        <h6 class="head-font-size">Treatments</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-flex">
+                <div class="text-position">
+                    <div class="treatment pad-20"> <img src="img/logo-1.png" alt="">
+                        <h1><b>Implants</b></h1>
+                        <p>A dental implant is a surgical component that interfaces with the bone of the jaw or skull to support a dental prosthesis such as a crown, bridge,
+                        </p>
+                    </div>
+                </div>
+                <div class="text-position">
+                    <div class="treatment pad-20"> <img src="img/logo-1.png" alt="">
+                        <h2><b>Partial Denture</b></h2>
+                        <p>Removable partial dentures usually consist of replacement teeth attached to pink or gum-colored plastic bases. Depending on your needs,
+                        </p>
+                    </div>
+                </div>
+                <div class="text-position">
+                    <div class="treatment pad-20"> <img src="img/logo-1.png" alt="">
+                        <h3><b>Preventive Tooth</b></h3>
+                        <p>Preventive dental care is key to keeping your teeth healthy throughout the course of your life.
+                        </p>
+                    </div>
+                </div>
+                <div class="text-position">
+                    <div class="treatment pad-20"> <img src="img/logo-1.png" alt="">
+                        <h4><b>Tooth Extraction & X-ray's</b></h4>
+                        <p>Tooth extraction is performed by a dentist or oral surgeon and is a relatively quick outpatient procedure , general.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-flex">
+                <div class="text-position">
+                    <div class="treatment pad-20"> <img src="img/logo-1.png" alt="">
+                        <h5><b>Cosmetic Dentistry</b></h5>
+                        <p>Cosmetic dentistry is generally used to refer to any dental work that improves the appearance of teeth, gums and/or bite.
+                        </p>
+                    </div>
+                </div>
+                <div class="text-position">
+                    <div class="treatment pad-20"> <img src="img/logo-1.png" alt="">
+                        <h6><b>Teeth Space</b></h6>
+                        <p>Unsourced material may be challenged and removed. A diastema (plural diastemata) is a space or gap between two teeth.</p>
+                    </div>
+                </div>
+                <div class="text-position">
+                    <div class="treatment pad-20"> <img src="img/logo-1.png" alt="">
+                        <h1><b>Cosmetic Dentistry</b></h1>
+                        <p>Cosmetic dentistry is a method of professional oral care that focuses on improving the appearance of your mouth, teeth and smile.</p>
+                    </div>
+                </div>
+                <div class="text-position">
+                    <div class="treatment pad-20"> <img src="img/logo-1.png" alt="">
+                        <h2><b>Teeth Whitening</b></h3>
+                            <p>Teeth whitening involves bleaching your teeth to make them lighter. It can't make your teeth brilliant white colour by several shades.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- ################################################## -->
+            <div class="col-flex">
+                <div class="text-position">
+                    <div class="treatment pad-20"> <img src="img/logo-1.png" alt="">
+                        <h3><b>Orthodontic treatment</b></h4>
+                            <p>
+                                Orthodontic treatment (dental braces): The use of devices to move teeth or adjust underlying bone.
+                            </p>
+                    </div>
+                </div>
+                <div class="text-position">
+                    <div class="treatment pad-20"> <img src="img/logo-1.png" alt="">
+                        <h4><b>Root Canal Treatment</b></h4>
+                        <p>A root canal is a treatment used to repair and save a tooth that is badly decayed or becomes infected. </p>
+                    </div>
+                </div>
+                <div class="text-position">
+                    <div class="treatment pad-20"> <img src="img/logo-1.png" alt="">
+                        <h15><b>Dental Composite</b></h5>
+                            <p>A composite (tooth colored) filling is used to repair a tooth that is affected by decay, cracks, fractures, etc.</p>
+                    </div>
+                </div>
+                <div class="text-position">
+                    <div class="treatment pad-20"> <img src="img/logo-1.png" alt="">
+                        <h6><b>Scaling and Polishing</b></h6>
+                        <p>Dental scaling and polishing is the removal of plaque and tartar deposits built up on the teeth and the polishing of the smooth surfaces of the teeth.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="apoint" class="section ">
+        <div class="container ">
+            <div class="appointment-head text-center pad-10">
+                <h1>APPOINTMENT</h1>
+            </div>
+            <div class="col-flex bg-4">
+                <div class="text-position animation-element slide-left">
+                    <div class="appointment-form appointment-form-shadow pad-10">
+                        <form action="">
+                            <h2 class="text-center color-white bg-blue pad-20">Appoitment</h2>
+                            <div class="from-group pad-10 "> <label for=" ">Name</label> <input type="text " placeholder="Type Your Name " class="form-control "></div>
+                            <div class="from-group pad-10 "> <label for=" ">Email</label> <input type="Email " placeholder="Tyoe Your Email " class="form-control "></div>
+                            <div class="from-group pad-10 "> <label for=" ">Phone</label> <input type="Number " placeholder="Tyoe Your Number " class="form-control "></div>
+                            <div class="from-group pad-10 "> <label for=" ">Disease</label> <input type="text " placeholder="Tyoe Your Problem " class="form-control "></div>
+                            <div class="from-group pad-10 "> <label for=" ">Date & Time</label> <input type="date " placeholder="Tyoe Date & Time " class="form-control "></div>
+                            <div class="submit pad-10 text-center"> <button type="submit" class="btn btn-primary btn-custom">Submit</button></div>
+                        </form>
+                    </div>
+                </div>
+                <div class="text-position ">
+                    <div class="appointment-form pad-10 bg-pink">
+                        <table class="table table-light ">
+                            <h3 class="text-center color-white ">Our Timing</h3>
+                            <tbody>
+                                <tr>
+                                    <td>Monday:-</td>
+                                    <td>10:00Am</td>
+                                    <td>2:00Pm</td>
+                                    <td>5:00Pm 9:00Pm</td>
+                                </tr>
+                                <tr>
+                                    <td>Tuesday:-</td>
+                                    <td>10:00Am</td>
+                                    <td>2:00Pm</td>
+                                    <td>5:00Pm 9:00Pm</td>
+                                </tr>
+                                <tr>
+                                    <td>Wednesday:-</td>
+                                    <td>10:00Am</td>
+                                    <td>2:00Pm</td>
+                                    <td>5:00Pm 9:00Pm</td>
+                                </tr>
+                                <tr>
+                                    <td>Thursday:-</td>
+                                    <td>10:00Am</td>
+                                    <td>2:00Pm</td>
+                                    <td>5:00Pm 9:00Pm</td>
+                                </tr>
+                                <tr>
+                                    <td>Friday:-</td>
+                                    <td>10:00Am</td>
+                                    <td>2:00Pm</td>
+                                    <td>5:00Pm 9:00Pm</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday:-</td>
+                                    <td>10:00Am</td>
+                                    <td>2:00Pm</td>
+                                    <td>5:00Pm 9:00Pm</td>
+                                </tr>
+                                <tr>
+                                    <td>Monday:-</td>
+                                    <td>10:00Am</td>
+                                    <td>2:00Pm</td>
+                                    <td>5:00Pm 9:00Pm</td>
+                                </tr>
+                                <tr>
+                                    <td>Sunday:-</td>
+                                    <td>10:00Am</td>
+                                    <td>2:00Pm</td>
+                                    <td>5:00Pm 9:00Pm</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="gal" class="animation-element slide-left">
+        <div class="container">
+            <div class="col-flex">
+                <div class="text-position">
+                    <div class="heading text-center">
+                        <h4 class="head-font-size">Gallery</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-flex">
+                <div class="text-position">
+                    <div class="Dental-gallery pad-10"> <img src="img/j-n-dental-cure-care-bilaspur-h-o-bilaspur-chhattisgarh-dentists-4464mnu.jpg" alt="" class="img-responsive"></div>
+                </div>
+                <div class="text-position">
+                    <div class="Dental-gallery pad-10"> <img src="img/shriram-dental-shriram-dant-chikitsalaya-bilaspur-chhattisgarh-682do-gallery-2.jpg" alt="" class="img-responsive"></div>
+                </div>
+                <div class="text-position">
+                    <div class="Dental-gallery pad-10"> <img src="img/j-n-dental-cure-care-bilaspur-h-o-bilaspur-chhattisgarh-dentists-121f5q7.jpg" alt="" class="img-responsive"></div>
+                </div>
+                <div class="text-position">
+                    <div class="Dental-gallery pad-10"> <img src="img/shriram-dental-shriram-dant-chikitsalaya-bilaspur-chhattisgarh-0wum3.jpg" alt="" class="img-responsive"></div>
+                </div>
+            </div>
+            <div class="col-flex">
+                <div class="col-flex">
+                    <div class="text-position">
+                        <div class="Dental-gallery pad-10"> <img src="img/shriram-dental-shriram-dant-chikitsalaya-bilaspur-chhattisgarh-cmehn.jpg" alt="" class="img-responsive"></div>
+                    </div>
+                    <div class="text-position">
+                        <div class="Dental-gallery pad-10"> <img src="img/shriram-dental-shriram-dant-chikitsalaya-bilaspur-chhattisgarh-gg455.jpg" alt="" class="img-responsive"></div>
+                    </div>
+                </div>
+    </section>
+    <footer class="pad-10" id="con">
+        <div class="container">
+            <div class="col-flex">
+                <div class="text-position">
+                    <div class="Dental-contact">
+                        <h5 class="head-font-size">Contact</h5>
+                        <p>Address</p>
+                        <p>Madhya Nagari Chowk, Bilaspur H O, Bilaspur-Chhattisgarh - 495001, Near Radha Krishna Mandir</p>
+                    </div>
+                </div>
+                <div class="text-position">
+                    <div class="Dental-contact">
+                        <h6 class="head-font-size">Talk To Us</h6>
+                        <p>Phone</p>
+                        <ul>
+                            <li>91+ 87 70 86 84 84</li>
+                            <li>91+ 88 19 07 54 97</li>
+                        </ul>
+                        <p>Email</p>
+                        <ul class="pad-10">
+                            <li>rohit87_pandey@yahoo.com</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="map"> <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d25301.423144924676!2d82.11752327986338!3d22.087373917799006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d22.092742899999998!2d82.11780569999999!4m5!1s0x3a280b1257e79f3f%3A0x99a015ff0e902b08!2sjn%20dental%20care%20bilaspur%20chhattisgarh!3m2!1d22.083395799999998!2d82.1523591!5e1!3m2!1sen!2sin!4v1597727033607!5m2!1sen!2sin"
+                        width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+    </footer>
+    
+     <script src="js/wheel.js"></script>
+
+</body>
+
+</html>

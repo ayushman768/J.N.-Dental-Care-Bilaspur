@@ -1,0 +1,256 @@
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box
+            }
+            
+            html {
+                scroll-behavior: smooth
+            }
+            
+            body {
+                font-family: 'Alata', sans-serif!important;
+                font-size: 18px!important;
+                letter-spacing: 1px
+            }
+            
+            section {
+                padding-top: 95px
+            }
+            
+            .navbar-nav {
+                font-size: 14px!important
+            }
+            
+            .col-flex {
+                display: flex;
+                flex-wrap: nowrap
+            }
+            
+            .text-position {
+                display: inline-flex
+            }
+            
+            .Dental-About,
+            .Dental-bg-text,
+            .Dental-contact,
+            .appointment-form,
+            .dental-box,
+            .dental-header,
+            .dental-logo,
+            .heading,
+            .map,
+            .submit,
+            .text-position {
+                width: 100%
+            }
+            
+            .treatment>img {
+                width: 17%
+            }
+            
+            .dental-appointment,
+            .dental-logo {
+                width: 37%
+            }
+            
+            ul {
+                list-style-type: none
+            }
+            
+            .dental-logo>img {
+                width: 18%!important
+            }
+            
+            footer {
+                background: rgb(56 56 56) url(https://ramomcoder.com/v3/assets/frontend/images/07.png);
+                color: #fff
+            }
+            
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-size: 20px!important;
+                padding: 10px
+            }
+            
+            .bg-blue,
+            .bg-pink {
+                background: rgb(97 67 121);
+                color: #fff
+            }
+            
+            .color-white {
+                color: #fff!important
+            }
+            
+            .color-pink {
+                color: rgb(255 138 139)
+            }
+            
+            .appointmenat-form-shadow {
+                box-shadow: 2px 0 11px 0
+            }
+            
+            .bg-pink {
+                background-color: rgb(255 138 139)
+            }
+            
+            .layer {
+                background: rgb(0 0 0 / 49%)
+            }
+            
+            .head-font-size {
+                font-size: 31px!important
+            }
+            
+            header {
+                position: sticky;
+                z-index: 99999;
+                top: 0;
+                background-color: #fff
+            }
+            
+            .pad-10,
+            p {
+                padding: 10px
+            }
+            /* 
+p {
+    font-size: 18px;
+    letter-spacing: 3px;
+} */
+            
+            .pad-20 {
+                padding: 26px
+            }
+            
+            header {
+                box-shadow: 0 -2px 12px 0
+            }
+            
+            .bg-1 {
+                background-image: url(../img/bg-2.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed
+            }
+            
+            .anchor {
+                color: rgb(255 255 255)!important;
+                text-decoration: none!important
+            }
+            
+            .btn-custom {
+                padding: 10px 31px!important;
+                background: rgb(255 138 139);
+                border: none;
+                color: rgb(255 255 255)!important;
+                font-size: 24px!important;
+                text-decoration: none!important
+            }
+            
+            .btn:hover {
+                background: rgb(97 67 121);
+                transition: .2s ease-in;
+                color: #fff
+            }
+            
+            .Dental-bg-text {
+                padding: 164px 0
+            }
+            
+            .Dental-bg-text>.big {
+                font-size: 108px;
+                font-weight: 800;
+                color: rgb(255 255 255)
+            }
+            
+            .Dental-bg-text>p {
+                font-size: 26px;
+                font-weight: 700;
+                color: rgb(255 255 255 / 57%)
+            }
+            
+            .appointment-form,
+            .treatment {
+                border: 3px solid rgb(0 0 0 / 8%);
+                margin: 10px 10px
+            }
+            
+            .treatment:hover {
+                background: rgb(255 138 139);
+                transition: .2s ease-in-out;
+                color: #fff;
+                border-color: rgb(255 138 139)
+            }
+            
+            .block,
+            .block-1 {
+                display: none
+            }
+            
+            .Dental-gallery>img {
+                width: 100%;
+                height: 280px
+            }
+            
+            .Dental-About>img {
+                width: 100%;
+                height: 375px
+            }
+            
+            @media (max-width:1024px) {
+                .col-flex {
+                    display: block;
+                    flex-wrap: wrap
+                }
+                .Dental-bg-text>p {
+                    font-size: 18px;
+                    font-weight: 700;
+                    color: rgb(255 255 255 / 57%)
+                }
+                .Dental-bg-text>.big {
+                    font-size: 40px;
+                    font-weight: 800;
+                    color: rgb(255 255 255)
+                }
+                .dental-appointment,
+                .dental-header {
+                    display: none
+                }
+                .block {
+                    position: absolute;
+                    right: 22px;
+                    top: -2px;
+                    color: rgb(97 67 121);
+                    font-size: 46px;
+                    display: block!important
+                }
+                #menu:checked~header .dental-header {
+                    display: block;
+                    list-style: block;
+                    padding-top: 72px;
+                    text-align: inherit;
+                    position: relative;
+                    left: -85px
+                }
+                .appointment-form {
+                    font-size: 12px
+                }
+                .dental-logo {
+                    padding: 0
+                }
+                .Dental-About>img {
+                    max-width: 100%;
+                    height: auto;
+                }
+                .dental-logo>img {
+                    width: 39%!important;
+                    padding: 10px
+                }
+            }
